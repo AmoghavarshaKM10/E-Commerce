@@ -65,7 +65,7 @@ A full-featured and production-ready E-Commerce web application with **Spring Bo
 - Kafka-driven order processing workflow
 - Stock management on order confirmation
 
-### 🔐 Security
+### Security
 - BCrypt password hashing
 - Secure API endpoints
 - User settings with password and email update functionality
