@@ -3,12 +3,23 @@
 
 # Log file
 *.log
+**/logs/*.json
 
 # BlueJ files
 *.ctxt
 
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
+
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Eclipse / STS
+**/.classpath
+**/.project
+**/.settings/
+**/.factorypath
 
 # Package Files #
 *.jar
@@ -18,7 +29,31 @@
 *.zip
 *.tar.gz
 *.rar
+**/target
+
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+# React/Vite
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Environment variables (except examples)
+.env
+!.env.example
+
+# IDE
+.vscode/
+.idea/
+*.iml
+*.iws
+
+# Cache
+.npm
+.eslintcache
+.parcel-cache
+.cache
