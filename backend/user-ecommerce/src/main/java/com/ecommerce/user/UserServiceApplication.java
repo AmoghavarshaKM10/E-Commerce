@@ -7,7 +7,7 @@ import org.springframework.context.annotation.PropertySource;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 
 @SpringBootApplication
-@PropertySource("file:../../opt/dbConfig.properties")
+@PropertySource("file:/opt/dbConfig.properties")
 @ComponentScan("com.ecommerce")
 public class UserServiceApplication {
 

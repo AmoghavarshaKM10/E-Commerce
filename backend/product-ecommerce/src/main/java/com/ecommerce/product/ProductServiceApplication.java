@@ -6,7 +6,7 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.PropertySource;
 
 @SpringBootApplication
-@PropertySource("file:../../opt/dbConfig.properties")
+@PropertySource("file:/opt/dbConfig.properties")
 @ComponentScan("com.ecommerce")
 public class ProductServiceApplication {
 

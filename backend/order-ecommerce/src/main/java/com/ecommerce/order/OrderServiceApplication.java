@@ -9,7 +9,7 @@ import org.springframework.scheduling.annotation.EnableAsync;
 
 @SpringBootApplication
 @EnableFeignClients
-@PropertySource("file:../../opt/dbConfig.properties")
+@PropertySource("file:/opt/dbConfig.properties")
 @ComponentScan("com.ecommerce")
 @EnableAsync
 public class OrderServiceApplication {

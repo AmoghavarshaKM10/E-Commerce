@@ -7,7 +7,7 @@ import org.springframework.context.annotation.PropertySource;
 import org.springframework.scheduling.annotation.EnableScheduling;
 
 @SpringBootApplication
-@PropertySource("file:../../opt/dbConfig.properties")
+@PropertySource("file:/opt/dbConfig.properties")
 @ComponentScan("com.ecommerce")
 @EnableScheduling
 public class CartServiceApplication {
